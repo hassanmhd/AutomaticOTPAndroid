@@ -1,5 +1,5 @@
 # AutomaticOTPAndroid
-An easy to use Automatic OTP reader library for android. This is based on GoogleApiClient and SmsRettriever and doesn't require any permission.
+An easy to use Automatic OTP reader library for android. This is based on GoogleApiClient and SmsRetriever and doesn't require any permission.
 
 
 Gradle
@@ -59,7 +59,7 @@ OTPManager.OTPManagerBuilder(this).setListener(object : OTPBroadcastReceiver.OTP
         }).build().start()
 ```
 
-And Thats it!
+And That's it!
 
 
 FAQ
@@ -74,7 +74,7 @@ By default, Any message format will be received if it has the following:
 ***example***
 
 ```
-<#> Hellow user, Your activation code is: XXXX
+<#> Hello user, Your activation code is: XXXX
 [APP_SIGNATURE]
 ```
 
@@ -104,7 +104,7 @@ keytool -exportcert -alias YOUR_ALIAS -keystore certificate.jks | xxd -p | tr -d
 And Done! now you should see the 11 characters hash code for your google play application!.
 
 
-For more details on how to generate the app signature key you can check this answer in [stackoverflow](https://stackoverflow.com/a/55829661/5082132)
+For more details on how to generate the app's signature key you can check this answer in [stackoverflow](https://stackoverflow.com/a/55829661/5082132)
 
 
 Changelog
