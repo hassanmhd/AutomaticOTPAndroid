@@ -89,7 +89,7 @@ If you're still developing your app, you can check the demo application and use 
 
 
 **For releasing to Google play:**
-If you're going to release the application to google play you there is some work to be done. Because google play signs the apps you publish, this changes your application's signature after it's uploaded to google play. So you'll need to get the new application signature to be set in your backend.
+If you're going to release the application to google play there is some work to be done. Because google play signs the apps you publish, this changes your application's signature after it's uploaded to google play. So you'll need to get the new application signature to be set in your backend.
 But don't worry, the process is really easy and all you have to do is:
 1.Download the app signing certificate `deployment_cert.der` file from google play console.
 2.Convert the `deployment_cert.der` file to a `.jks` file using this command: 
